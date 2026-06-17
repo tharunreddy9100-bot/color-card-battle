@@ -2,9 +2,20 @@
   "name": "Color Card Battle",
   "short_name": "CardBattle",
   "description": "Multiplayer color card battle game with friends, teams and online matches.",
-  "start_url": "./",
+  "start_url": "/",
   "display": "standalone",
-  "background_color": "#111111",
-  "theme_color": "#111111",
-  "orientation": "portrait"
+  "background_color": "#000000",
+  "theme_color": "#2196f3",
+  "icons": [
+    {
+      "src": "launchericon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "launchericon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
